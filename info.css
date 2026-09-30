@@ -1,0 +1,72 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr;
+  
+}
+
+.banner {
+  border: 3px solid blue;
+  
+  background-color: rgb(49, 49, 49, 1);
+  color: lightgray;
+  padding: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  &>#cafe {
+    color: white;
+    font-size: 25px;
+    text-indent: 10px;
+  }
+
+  &>#tab {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & a {
+    color: inherit;
+  }
+
+  & a:hover,
+  & a:nth-child(3):visited {
+    color: yellow;
+  }
+}
+
+
+
+
+
+.title {
+  /* width: ; */
+  height: 30%;
+  background-color: lightgray;
+}
+
+.main {
+  height: 60%;
+  background-color: white;
+}
+
+
+#outro {
+  /* border: 1px solid blue; */
+}
+pre{
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  width: inherit;
+  height: inherit;
+  font-size: 12px;
+  /* box-sizing: border-box; */
+  /* border: 1px solid red; */
+}
